@@ -1,0 +1,91 @@
+@media only screen and (min-width:865px){
+    /* for mobile*/
+    .team-container{
+        flex-direction:row;
+    }
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.h {
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    height: 30;
+    color: black;
+}
+
+.na ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: purple;
+    margin: 0;
+}
+
+.na ul li {
+    margin: 0 15px;
+}
+
+.na ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    border-radius: 15px;
+}
+li :hover{
+background-color:violet;
+transform: translate(-10px);
+transition: transform 0.3s ease;  
+box-shadow: 0 0 10px purple;
+}
+
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.member-card:hover{
+background-color:violet;
+transform: translate(-10px);
+transition: transform 0.3s ease;  
+box-shadow: 0 0 10px purple;
+}
+
+.member-card {
+    background-color:purple;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.member-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: purple;
+    color: black;
+    margin-top: 40px;
+    position: sticky;
+    bottom: 0;
+}
